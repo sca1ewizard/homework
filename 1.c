@@ -37,7 +37,7 @@ int main() {
             }
             }
     }
-   printf("rrr \n %i \n", count);
+ printf("rrr \n %i \n", count);
     if (sign == TRUE) 
     {
 
