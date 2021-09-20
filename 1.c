@@ -29,12 +29,12 @@ int main() {
                 count++;
             }
             else {
-                printf("Error .\n");
+                printf("Error.\n");
                 exit(ERROR);
             }
         }
     }
-    if (count > sizeof(int) * CHAR_BIT) {
+    if (count >= sizeof(int) * CHAR_BIT) {
         printf("Error oversize.\n");
         exit(ERROR);
     }
